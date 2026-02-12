@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Fira Sans", sans-serif;
+}
+:root{
+    --primary:#006A50;
+    --background:#c5e3d5;
+    --gray:#6d6262;
+    --ass:#9c9898;
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.but{
+    padding: 10px 20px;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    background: transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.but:hover{
+    transform: scale(1.2);
+}
+.hero{
+    background-color: var(--background);
+    border: 2px solid var(--primary);
+    border-radius: 15px;
+    min-height: 200px;
+}
+.wrraper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px;
+}
+.right img{
+    width: 90%;
+    margin-bottom: 20px;
+}
+.left h3{
+    color: var(--gray);
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.left h1{
+    color: black;
+    margin-bottom: 20px;
+}
+.left button{
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+}
+.left button:hover{
+    transform: scale(1.2);
+}
+
+.Pillars{
+    display: flex;
+}
+   
+   
+#pill{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 10px;
+}
+.Pillars2{
+    border: 2px solid var(--ass);
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 20px;
+}
+.Pillars3{
+    border: 2px solid var(--ass);
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.sub{
+    margin-bottom: 20px;
+}
+.Pillars3 img{
+    margin-bottom: 20px;
+}
+.Pillars2 img{
+    margin-bottom: 20px;
+}
+.Pillars3 h4{
+    margin-bottom: 20px;
+}
+.Pillars2 h4{
+    margin-bottom: 20px;
+}    
+.Pillars3 span{
+    width: 1rem;
+    font-size: 18px;
+    color: var(--ass);
+}
+.Pillars2 span{
+    width: 1rem;
+    font-size: 18px;
+    color: var(--ass);
+}
+.visi h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 30px   ;
+}
+.visi p{
+    margin-bottom: 20px;
+    color: var(--ass);
+    font-size: 18px;
+}
+
+
+#Vision{
+    display: flex; 
+    margin-bottom: 20px;
+}
+.Vision1{
+    border: 2px solid #d5e1f5;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 500px;
+    height: 300px;
+    background-color: #d5e1f5;
+    
+}
+.Vision1 img{
+    margin-bottom: 20px;
+}
+.Vision1 h4{
+    margin-bottom: 20px;
+}
+.Vision1 p{
+    color: var(--ass);
+    font-size: 18px;
+}
+.Vision1 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #5f96f5 ;
+    border-radius: 5px;
+    background-color: #5f96f5 
+}
+.Vision1 button:hover{
+    transform: scale(1.2);
+}
+
+
+.Vision2{
+    border: 2px solid #c5e3d5;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 500px;
+    height: 300px;
+    background-color: #c5e3d5;
+    margin-left: 20px;
+}
+.Vision2 img{
+    margin-bottom: 20px;
+}
+.Vision2 h4{
+    margin-bottom: 20px;
+}
+.Vision2 p{
+    color: var(--ass);
+    font-size: 18px;
+}
+.Vision2 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #0aa15d ;
+    border-radius: 5px;
+    background-color: #0aa15d
+}
+.Vision2 button:hover{
+    transform: scale(1.2);
+}
+
+.Vision3{
+    border: 2px solid #f7ebcf;
+    border-radius: 10px;
+    padding: 10px 30px;
+    width: 500px;
+    height: 300px;
+    background-color: #f7ebcf;
+    margin-left: 20px;
+}
+.Vision3 img{
+    margin-bottom: 20px;
+}
+.Vision3 h4{
+    margin-bottom: 20px;
+}
+.Vision3 p{
+    color: var(--ass);
+    font-size: 18px;
+
+}
+.Vision3 button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid #ffc239 ;
+    border-radius: 5px;
+    background-color: #ffc239
+    
+}
+.Vision3 button:hover{
+    transform: scale(1.2);
+}
+#yunusSection{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.yunus{
+    background-color: white;
+    border: 2px solid var(--ass);
+    padding: 10px 30px;
+    border-radius: 15px;
+    color: var(--ass);
+    font-size: 18px;
+    text-align: justify;
+
+}
+.dr{
+    color: black;
+    margin-top: 20px;
+    
+}
+.yunus .qoute{
+    position: absolute;
+}
+
+.matter{
+    margin-bottom: 20px
+}
+#opinion{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.Opinion2{
+    border: 2px solid var(--ass);
+    background-color: #ffffff;
+    padding: 10px 30px;
+    width: 100%;
+    border-radius: 15px;
+}
+.table{
+    text-align: left;
+    background-color: var(--background);
+
+}
+.Opinion2 td{
+    border-top: 2px solid var(--ass);
+    border-left: 2px solid var(--ass);
+    padding: 10px;
+    text-align: left;
+}
+.Opinion2 th{
+    padding: 10px 20px;
+}
+.Opinion2 select{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--ass);
+    background-color: var(--background);
+}
+.recent h1{
+    margin-bottom: 20px;
+}
+.recent p{
+    color: var(--ass);
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.satellite{
+    background-color: rgb(241, 239, 239);
+    border: 2px solid rgb(241, 239, 239);
+    border-radius: 15px;
+    display: flex;
+    padding: 20px 40px;
+    margin-bottom: 20px;
+    height: 350px;
+}
+.satellite img{
+    
+    border-radius: 30px;
+    
+}
+.satellite .laun{
+    margin-left: 20px;
+    text-align: left;
+}
+.satellite .laun h1{
+    margin-bottom: 10px;
+}
+.satellite .laun img{
+    margin-bottom: 10px;
+}
+.satellite .laun p{
+    margin-bottom: 10px;
+    color: var(--ass);
+    font-size: 18px;
+}
+.satellite .laun button{
+    padding: 10px  20px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: white;
+}
+.satellite .laun button:hover{
+    transform: scale(1.2);
+}
+.donatetska{
+    
+    border-radius: 15px;
+    text-align: center;
+    margin-bottom: 20px
+}
+.donate h1{
+    padding: 20px 0px;
+}
+.donate p{
+    color: var(--ass);
+    font-size: 18px;
+}
+.taka{
+    padding: 20px;
+}
+.taka button{
+    padding: 20px 40px;
+    border: 2px solid var(--ass);
+    border-radius: 10px;
+}
+.taka button:hover{
+    background-color: var(--background);
+    transform: scale(1.2);
+}
+.amount{
+    padding: 20px;
+}
+.amount input{
+    width: 48%;
+    height: 40px;
+    border: 1px solid var(--ass);
+    border-radius: 5px;
+    background-color: var(--ass);
+    opacity: 50%;
+}
+.amount ::placeholder{
+    text-align: center;
+    color: white;
+}
+.done button{
+    padding: 10px 30px;
+    border: 2px solid var(--primary);
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: white;
+}
+.done button:hover{
+    transform: scale(1.2);
+}
+
+#subcribe{
+    margin-top: 20px;
+}
+.newsSection{
+    text-align: center;
+    padding: 30px 40px;
+}
+.newsSection h1{
+    margin-bottom: 20px;
+}
+.newsSection p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: var(--ass);
+}
+.newsSection .fild{
+    margin-bottom: 20px;
+}
+input[type="text"]{
+    padding: 10px 20px;
+    border: none;
+    width: 40%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.fild{
+    display: flex;
+    justify-content: center;
+    
+}
+.fild button{
+    background-color: var(--primary);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.fild button:hover{
+    transform: scale(1.2);
+}
+footer{
+    background-color: rgb(241, 239, 239);
+    
+    text-align: center;
+    border: 2px solid rgb(241, 239, 239);;
+    
+    margin-top: 20px;
+}
+footer h1{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+footer hr{
+    color: var(--ass);
+    margin-bottom: 20px;
+}
+.img .face{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.img .Insatra{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.img .X{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
